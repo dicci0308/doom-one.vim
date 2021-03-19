@@ -480,6 +480,7 @@ hi! link objcMethodArg Normal
 hi! link objcMessageName Identifier
 
 " Neovim Treesitter
+call s:_('DoomOneTSAnnotation', s:blue, '', 'bold')
 call s:_('DoomOneTSAttribute', s:blue, '', 'bold')
 call s:_('DoomOneTSComment', s:base5, '', 'none')
 call s:_('DoomOneTSConstructor', s:yellow, '', 'none')
@@ -522,6 +523,7 @@ call s:_('DoomOneTSTypeBuiltin', s:magenta, '', 'none')
 call s:_('DoomOneTSVariable', '#dcaeea', '', 'none')
 call s:_('DoomOneTSVariableBuiltin', s:magenta, '', 'none')
 
+highlight! link TSAnnotation DoomOneTSAnnotation
 highlight! link TSAttribute DoomOneTSAttribute
 highlight! link TSComment DoomOneTSComment
 highlight! link TSConstructor DoomOneTSConstructor
