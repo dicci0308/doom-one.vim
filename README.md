@@ -14,3 +14,7 @@ Plug 'romgrk/doom-one.vim'
 ## Screenshot
 
 ![theme](./static/demo.png)
+
+## TS Support
+
+Rudimentary TS support is in place.
