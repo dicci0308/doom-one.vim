@@ -479,6 +479,33 @@ hi! link objcMethodName Identifier
 hi! link objcMethodArg Normal
 hi! link objcMessageName Identifier
 
+" Neovim Treesitter
+call s:_('DoomOneViolet', s:violet, '', 'none')
+call s:_('DoomOneBlue', s:blue, '', 'none')
+call s:_('DoomOnePurple', s:violet, '', 'none')
+call s:_('DoomOneGreen', s:green, '', 'none')
+call s:_('DoomOneWhite', s:white, '', 'none')
+call s:_('DoomOneCyan', s:cyan, '', 'none')
+call s:_('DoomOneOrange', s:orange, '', 'none')
+call s:_('DoomOneMagenta', s:magenta, '', 'none')
+highlight! link TSAnnotation DoomOneViolet
+highlight! link TSAttribute DoomOneBlue
+highlight! link TSConstant DoomOnePurple
+highlight! link TSConstBuiltin DoomOneGreen
+highlight! link TSConstMacro DoomOneViolet
+highlight! link TSConstructor DoomOneMagenta
+highlight! link TSFuncBuiltin DoomOneBlue
+highlight! link TSFuncMacro DoomOneBlue
+highlight! link TSInclude DoomOneOrange
+highlight! link TSKeywordOperator DoomOneViolet
+highlight! link TSNamespace DoomOneCyan
+highlight! link TSParameter DoomOneWhite
+highlight! link TSPunctSpecial DoomOneOrange
+highlight! link TSSymbol DoomOnePurple
+highlight! link TSTag DoomOneBlue
+highlight! link TSTagDelimiter DoomOneGreen
+highlight! link TSVariableBuiltin DoomOneGreen
+
 " 1}}}
 
 " 1}}}
