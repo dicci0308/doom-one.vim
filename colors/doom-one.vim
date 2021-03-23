@@ -482,7 +482,7 @@ hi! link objcMessageName Identifier
 " Neovim Treesitter
 call s:_('DoomOneTSAnnotation', s:blue, '', 'bold')
 call s:_('DoomOneTSAttribute', s:blue, '', 'bold')
-call s:_('DoomOneTSConditional', s:blue, '', 'bold')
+call s:_('DoomOneTSConditional', s:blue, '', 'none')
 call s:_('DoomOneTSComment', s:base5, '', 'none')
 call s:_('DoomOneTSConstructor', s:yellow, '', 'none')
 call s:_('DoomOneTSConstant', s:violet, '', 'none')
