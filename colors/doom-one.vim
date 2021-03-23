@@ -522,11 +522,10 @@ call s:_('DoomOneTSType', s:yellow, '', 'none')
 call s:_('DoomOneTSTypeBuiltin', s:magenta, '', 'none')
 call s:_('DoomOneTSVariable', '#dcaeea', '', 'none')
 call s:_('DoomOneTSVariableBuiltin', s:magenta, '', 'none')
-call s:_('DoomOneTSConditional', '#46D9FF', '', 'bold')
 
 highlight! link TSAnnotation DoomOneTSAnnotation
 highlight! link TSAttribute DoomOneTSAttribute
-highlight! link TSConditional DoomOneTSConditional
+highlight! link TSConditional Conditional
 highlight! link TSComment DoomOneTSComment
 highlight! link TSConstructor DoomOneTSConstructor
 highlight! link TSConstant DoomOneTSConstant
