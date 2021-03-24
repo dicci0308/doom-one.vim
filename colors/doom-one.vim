@@ -480,6 +480,7 @@ hi! link objcMethodArg Normal
 hi! link objcMessageName Identifier
 
 " Neovim Treesitter
+call s:_('DoomOneTSException', s:blue, '' 'underline')
 call s:_('DoomOneTSAnnotation', s:blue, '', 'bold')
 call s:_('DoomOneTSAttribute', s:blue, '', 'bold')
 call s:_('DoomOneTSConditional', s:blue, '', 'none')
