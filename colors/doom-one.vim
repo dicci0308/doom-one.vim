@@ -232,15 +232,15 @@ call s:_('Bold', '', '', 'bold')
 " Text levels                                                                {{{
 
 let s:text_colors = {
-\ 'Normal':  s:fg,
-\ 'Info':    s:blue,
-\ 'Success': s:green,
-\ 'Warning': s:yellow,
-\ 'Debug':   s:yellow,
-\ 'Error':   s:red,
-\ 'Special': s:violet,
-\ 'Muted':   s:base7,
-\}
+      \ 'Normal':  s:fg,
+      \ 'Info':    s:blue,
+      \ 'Success': s:green,
+      \ 'Warning': s:yellow,
+      \ 'Debug':   s:yellow,
+      \ 'Error':   s:red,
+      \ 'Special': s:violet,
+      \ 'Muted':   s:base7,
+      \ }
 for key in keys(s:text_colors)
   call s:_('Text' . key,          s:text_colors[key], '', '')
   call s:_('Text' . key . 'Bold', s:text_colors[key], '', 'bold')
@@ -285,6 +285,8 @@ call s:_('Include',              s:magenta, '',        'bold')
 call s:_('Repeat',               s:blue, '',        '')
 call s:_('Keyword',              s:blue, '',        '')
 call s:_('Statement',            s:blue, '',        'none')
+call s:_('Conditional',          s:blue, '',        '')
+call s:_('Exception',            s:blue, '',        '')
 call s:_('Label',                s:blue, '',        '')
 
 call s:_('Operator',             s:blue, '',        '')
